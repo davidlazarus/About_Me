@@ -1,0 +1,116 @@
+.masthead {
+  font-family: "open sans";
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Gentium Book Basic"
+}
+
+.masthead{
+  display: flex; 
+  justify-content: space-around;
+  background-position: left;
+  padding: 2em 0;
+  background-image: url('https://images.unsplash.com/photo-1443926886562-c91054221a5c?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');
+  border-top: .5em solid #b3b3b3; 
+}
+
+.masthead-HELLO, .masthead-LAZ {
+  color: white;
+  font-size: 4em;
+}
+
+.portrait {
+    width: 10em;
+    height: 10em; 
+    background-image: url('https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-9/12523871_862771616745_6177815747311578436_n.jpg?oh=50df7b7e350386f31b63a61eb635bea4&oe=57DC5450');
+    background-size: 10em;
+    border-radius: 1em;
+}
+
+.intro {
+  margin-top: 2em;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: #B3B3B3;
+  padding: .5em 2em;
+  border-radius: 1em;
+  font-size: 1.3em;
+  text-align: center; 
+  color: white;
+  line-height: 1.5em;
+  box-shadow: -1px 1px 5px 1px grey;
+}
+
+.space1 {
+  height: 2em;
+}
+
+.skills1, .skills2 {
+  font-size: 3em;
+  color: #b3b3b3;
+  margin-left: 35%;
+}
+
+.image1, .image2, .image3 {
+  width: 2em;
+  height: 2em;
+  background-size: 2em;
+  margin-left: -3em;
+}
+
+.image1{
+  background-image: url('http://www.ztudium.com/wp-content/uploads/2014/11/social-pub-icon.png');
+  margin-top: -3.2em;
+  
+}
+
+.skills2 {
+  margin-top: 2em;
+}
+
+.image2{
+   background-image: url('http://amartam.com/images/gd_icon.png');
+  margin-top: -2.7em;
+}
+
+.skills3 {
+  font-size: 3em;
+  color: #b3b3b3;
+  margin-left: 35%;
+  margin-top: 2em;
+}
+
+.image3{
+  background-image: url('https://www.go8.edu.au/sites/default/files/styles/medium/public/images/icon/strengths-icon-blue.png?itok=cmGpYSVg');
+  margin-top: -2.7em;
+}
+
+.content-footer {
+	margin-top: 3em;
+	padding: 2em 0;
+	background-color: #b3b3b3;
+}
+
+.content-footer > p {
+  color: white;
+  text-align:center;
+}
+
+.social {
+	padding: 0;
+	list-style: none;
+  text-align: center; 
+  font-weight: bold;
+}
+
+.social > li {
+	display: inline-block;
+	margin-right: 1em;
+ 	color: white;
+}
