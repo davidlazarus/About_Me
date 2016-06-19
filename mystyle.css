@@ -1,3 +1,9 @@
+@media only screen and (max-width: 500px) {
+    .masthead-HELLO, .masthead-LAZ {
+        font-size: .2em;
+    }
+}
+
 .masthead {
   font-family: "open sans";
   font-weight: bold;
@@ -89,6 +95,13 @@ body {
 .image3{
   background-image: url('https://www.go8.edu.au/sites/default/files/styles/medium/public/images/icon/strengths-icon-blue.png?itok=cmGpYSVg');
   margin-top: -2.7em;
+}
+
+@media only screen and (max-width: 500px) {
+    .content-footer {
+        margin-top: 3em;
+        padding: 2em 0;
+    }
 }
 
 .content-footer {
